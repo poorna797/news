@@ -9,9 +9,6 @@ const validationSchema = Yup.object({
   name: Yup.string()
     .min(2, "Name must be at least 2 characters")
     .required("Name is required"),
-  email: Yup.string()
-    .email("Invalid email address")
-    .required("Email is required"),
   age: Yup.number()
     .min(18, "You must be at least 18")
     .max(120, "Invalid age")
@@ -90,7 +87,6 @@ export default function FormExample() {
             </button>
           </Form>
         )}
-      </Formik>
     </div>
   );
 }
