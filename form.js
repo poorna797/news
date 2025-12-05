@@ -24,7 +24,6 @@ export default function FormExample() {
   // Step 2: Form initial values
   const initialValues = {
     name: "",
-    email: "",
     age: "",
   };
 
@@ -90,7 +89,7 @@ export default function FormExample() {
             </button>
           </Form>
         )}
-      </Formik>
+   
     </div>
   );
 }
