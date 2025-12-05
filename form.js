@@ -30,12 +30,7 @@ export default function FormExample() {
 
 
 
-  // Step 3: Submit handler
-  const onSubmit = (values, { resetForm }) => {
-    console.log("Form submitted:", values);
-    alert(`Hello ${values.name}, your email is ${values.email}`);
-    resetForm();
-  };
+
 
 
 
@@ -90,7 +85,7 @@ export default function FormExample() {
             </button>
           </Form>
         )}
-      </Formik>
+  
     </div>
   );
 }
