@@ -5,21 +5,21 @@ const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = (e) => {
-    e.preventDefault();
+  // const handleLogin = (e) => {
+  //   e.preventDefault();
 
-    console.log("Email:", email);
-    console.log("Password:", password);
+  //   console.log("Email:", email);
+  //   console.log("Password:", password);
 
-    // You can replace this with API call
-    alert("Login clicked!");
-  };
+  //   // You can replace this with API call
+  //   alert("Login clicked!");
+  // };
 
   return (
     <div style={styles.container}>
       <h2 style={styles.title}>Login</h2>
 
-      <form onSubmit={} style={styles.form}>
+      <form onSubmit={handleLogin} style={styles.form}>
         <input
           type="email"
           placeholder="Enter your email"
