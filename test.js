@@ -19,7 +19,7 @@ const LoginPage = () => {
     <div style={styles.container}>
       <h2 style={styles.title}>Login</h2>
 
-      <form onSubmit={handleLogin} style={styles.form}>
+      <form onSubmit={} style={styles.form}>
         <input
           type="email"
           placeholder="Enter your email"
